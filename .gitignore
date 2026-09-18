@@ -1,0 +1,27 @@
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# File tạm của Tableau
+*.tmp
+*.log
+*.tflx
+
+# File hệ điều hành
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# File đa phương tiện lớn (video demo nộp qua link Drive/Youtube)
+*.mp4
+*.mkv
+*.mov
+*.zip
+*.rar
