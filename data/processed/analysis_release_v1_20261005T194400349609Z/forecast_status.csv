@@ -1,0 +1,5 @@
+﻿game_family,missing_2025_quarters,full_2025_test_has_observations,source_coverage_verified,status
+Counter-Strike,,True,False,structurally_complete_but_source_coverage_unverified
+Dota 2,,True,False,structurally_complete_but_source_coverage_unverified
+League of Legends,2025Q4,False,False,blocked_full_2025_test_missing_observations
+Valorant,2025Q2 | 2025Q4,False,False,blocked_full_2025_test_missing_observations

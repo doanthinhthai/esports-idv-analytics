@@ -1,0 +1,22 @@
+﻿rank,game,month,year,hours_watched,hours_streamed,peak_viewers,peak_channels,streamers,avg_viewers,avg_channels,avg_viewer_ratio,source_row_number,month_start,platform,measurement_level,source_category_raw,source_category,source_file,quality_status
+116,Resident Evil,10,2016,251183,3976,9871,21,7420,338,5,63.17,1917,2016-10-01,Twitch,game_month,Resident Evil,Resident Evil,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month
+180,Resident Evil,10,2016,143542,4113,9577,31,1047,193,5,34.9,1981,2016-10-01,Twitch,game_month,Resident Evil,Resident Evil,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month
+75,Dungeons & Dragons,9,2018,790966,21961,38597,181,2876,1100,30,36.02,6476,2018-09-01,Twitch,game_month,Dungeons & Dragons,Dungeons & Dragons,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month
+103,Dungeons & Dragons,9,2018,550645,10198,40261,127,2091,765,14,54.0,6504,2018-09-01,Twitch,game_month,Dungeons & Dragons,Dungeons & Dragons,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month
+13,Resident Evil 2,1,2019,16394917,449333,314244,6488,70644,22065,604,36.49,7214,2019-01-01,Twitch,game_month,Resident Evil 2,Resident Evil 2,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month
+15,Atlas,1,2019,12110031,187032,69614,637,10070,16298,251,64.75,7216,2019-01-01,Twitch,game_month,Atlas,Atlas,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month
+50,Atlas,1,2019,2106560,23485,75774,728,3909,2835,31,89.7,7251,2019-01-01,Twitch,game_month,Atlas,Atlas,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month
+130,Resident Evil 2,1,2019,578746,16569,38429,285,5441,778,22,34.93,7331,2019-01-01,Twitch,game_month,Resident Evil 2,Resident Evil 2,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month
+162,,2,2019,317951,77004,30919,5804,21758,473,114,4.13,7563,2019-02-01,Twitch,game_month,,,C:\Users\dthin\Downloads\Twitch_game_data.csv,missing_category
+120,Retro,9,2021,1511016,56192,23532,329,6430,2101,78,26.89,13721,2021-09-01,Twitch,game_month,Retro,Retro,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month
+72,Retro,9,2021,2976840,131077,20554,424,8577,4140,182,22.71,13673,2021-09-01,Twitch,game_month,Retro,Retro,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month
+83,Retro,10,2021,2484523,97914,10543,321,8118,3343,131,25.37,13884,2021-10-01,Twitch,game_month,Retro,Retro,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month
+103,Retro,10,2021,1719684,65164,12134,325,6159,2314,87,26.39,13904,2021-10-01,Twitch,game_month,Retro,Retro,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month
+27,Stray,7,2022,11428809,508590,287683,7662,136947,15381,684,22.47,15628,2022-07-01,Twitch,game_month,Stray,Stray,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month
+153,Stray,7,2022,909173,3856,83053,73,1233,1223,5,235.78,15754,2022-07-01,Twitch,game_month,Stray,Stray,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month
+68,Among Us,1,2023,2760266,76925,137287,342,37885,3715,103,35.88,16869,2023-01-01,Twitch,game_month,Among Us,Among Us,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month
+156,Among Us,1,2023,876724,14099,135976,291,8939,1179,18,62.18,16957,2023-01-01,Twitch,game_month,Among Us,Among Us,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month
+11,Resident Evil 4,3,2023,27426481,1054133,327946,12902,137994,36913,1418,26.02,17212,2023-03-01,Twitch,game_month,Resident Evil 4,Resident Evil 4,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month
+80,Resident Evil 4,3,2023,2213184,52760,94589,1409,14540,2978,71,41.95,17281,2023-03-01,Twitch,game_month,Resident Evil 4,Resident Evil 4,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month
+136,Paper Mario: The Thousand-Year Door,5,2024,1251230,39987,15086,481,4594,1684,53,31.29,20137,2024-05-01,Twitch,game_month,Paper Mario: The Thousand-Year Door,Paper Mario: The Thousand-Year Door,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month
+197,Paper Mario: The Thousand-Year Door,5,2024,662751,26379,17831,422,3541,891,35,25.12,20198,2024-05-01,Twitch,game_month,Paper Mario: The Thousand-Year Door,Paper Mario: The Thousand-Year Door,C:\Users\dthin\Downloads\Twitch_game_data.csv,ambiguous_category_month

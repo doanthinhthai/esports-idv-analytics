@@ -1,0 +1,9 @@
+﻿dataset,game_family,target,first_observed_period,last_period,periods_from_first_observation,missing_target_periods,zero_target_periods,forecast_requires_missing_policy,train_target_median,train_target_p95,train_observed_periods,validation_observed_periods,test_observed_periods
+earnings,Counter-Strike,target_prize_pool_usd,2012-01-01,2025-10-01,56,0,0,False,4068625.665,6254612.473,48,4,4
+earnings,Dota 2,target_prize_pool_usd,2012-01-01,2025-10-01,56,0,0,False,3662652.4299999997,25799737.385,48,4,4
+earnings,League of Legends,target_prize_pool_usd,2012-01-01,2025-10-01,56,1,0,True,2408416.08,4900785.179499998,48,4,3
+earnings,Valorant,target_prize_pool_usd,2020-04-01,2025-10-01,23,2,0,True,1772691.77,2651723.34,15,4,2
+twitch,Counter-Strike,hours_watched,2016-01-01,2024-09-01,105,0,0,False,45167186.5,76668986.6,84,12,9
+twitch,Dota 2,hours_watched,2016-01-01,2024-09-01,105,0,0,False,40126158.0,61769538.94999998,84,12,9
+twitch,League of Legends,hours_watched,2016-01-01,2024-09-01,105,0,0,False,95308627.5,169111690.49999994,84,12,9
+twitch,Valorant,hours_watched,2020-04-01,2024-09-01,54,0,0,False,80880189.0,134204177.19999997,33,12,9

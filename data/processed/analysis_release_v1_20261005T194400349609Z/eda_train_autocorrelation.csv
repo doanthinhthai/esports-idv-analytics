@@ -1,0 +1,17 @@
+﻿dataset,game_family,target,lag,train_only_autocorrelation,train_observed_periods
+earnings,Counter-Strike,target_prize_pool_usd,1,0.8570222945261292,48
+earnings,Counter-Strike,target_prize_pool_usd,4,0.8015560376234102,48
+earnings,Dota 2,target_prize_pool_usd,1,-0.1047942751497833,48
+earnings,Dota 2,target_prize_pool_usd,4,0.5171145141103778,48
+earnings,League of Legends,target_prize_pool_usd,1,-0.15753273926000239,48
+earnings,League of Legends,target_prize_pool_usd,4,0.033497498484171336,48
+earnings,Valorant,target_prize_pool_usd,1,0.5325560099563771,15
+earnings,Valorant,target_prize_pool_usd,4,0.46979103544034573,15
+twitch,Counter-Strike,hours_watched,1,0.45716896546723795,84
+twitch,Counter-Strike,hours_watched,12,0.48417837785369205,84
+twitch,Dota 2,hours_watched,1,-0.14265713022352786,84
+twitch,Dota 2,hours_watched,12,0.4599619268864944,84
+twitch,League of Legends,hours_watched,1,0.5808168074807852,84
+twitch,League of Legends,hours_watched,12,0.728543285063544,84
+twitch,Valorant,hours_watched,1,0.6440450125543681,33
+twitch,Valorant,hours_watched,12,0.13821181814164155,33

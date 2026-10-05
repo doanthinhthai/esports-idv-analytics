@@ -1,0 +1,159 @@
+﻿table,column,inferred_dtype,nullable_in_release,unit_hint
+tournaments.csv,source_site,str,False,see handoff/schema source
+tournaments.csv,source_url,str,False,see handoff/schema source
+tournaments.csv,source_tournament_id,int64,False,see handoff/schema source
+tournaments.csv,tournament_name_raw,str,False,see handoff/schema source
+tournaments.csv,location_raw,str,True,see handoff/schema source
+tournaments.csv,date_raw,str,False,see handoff/schema source
+tournaments.csv,start_date,str,False,see handoff/schema source
+tournaments.csv,end_date,str,False,see handoff/schema source
+tournaments.csv,game_name_raw,str,False,see handoff/schema source
+tournaments.csv,source_game_id,int64,False,see handoff/schema source
+tournaments.csv,game_source_url,str,False,see handoff/schema source
+tournaments.csv,prize_pool_raw,str,False,see handoff/schema source
+tournaments.csv,prize_pool_usd,float64,False,USD
+tournaments.csv,currency_raw,str,False,see handoff/schema source
+tournaments.csv,source_html_file,str,False,see handoff/schema source
+tournaments.csv,parsed_at,str,False,see handoff/schema source
+tournaments.csv,game_id,str,False,see handoff/schema source
+tournaments.csv,game_slug,str,False,see handoff/schema source
+tournaments.csv,crawled_at,str,False,see handoff/schema source
+tournaments.csv,placements_status,str,False,see handoff/schema source
+tournaments.csv,tournament_id,str,False,see handoff/schema source
+tournaments.csv,game_family,str,False,see handoff/schema source
+tournaments.csv,game_version,str,False,see handoff/schema source
+tournaments.csv,version_evidence,str,False,see handoff/schema source
+tournaments.csv,tournament_name,str,False,see handoff/schema source
+tournaments.csv,year,int64,False,see handoff/schema source
+tournaments.csv,quarter,str,False,see handoff/schema source
+tournaments.csv,date_validation_status,str,False,see handoff/schema source
+tournaments.csv,crawler_status,str,False,see handoff/schema source
+tournaments.csv,eligible_for_placement_prize_analysis,bool,False,see handoff/schema source
+tournaments.csv,quality_note,str,True,see handoff/schema source
+tournaments.csv,placements_total_usd,float64,True,USD
+tournaments.csv,source_start_date,str,True,see handoff/schema source
+tournaments.csv,source_end_date,str,True,see handoff/schema source
+tournaments.csv,pool_cents,int64,False,USD cents
+tournaments.csv,strict_quality,bool,False,see handoff/schema source
+tournaments.csv,month_start,str,False,see handoff/schema source
+placements.csv,source_site,str,False,see handoff/schema source
+placements.csv,source_url,str,False,see handoff/schema source
+placements.csv,source_tournament_id,int64,False,see handoff/schema source
+placements.csv,source_team_id,float64,True,see handoff/schema source
+placements.csv,team_name_raw,str,False,see handoff/schema source
+placements.csv,team_source_url,str,True,see handoff/schema source
+placements.csv,rank_raw,str,False,see handoff/schema source
+placements.csv,rank_min,float64,True,see handoff/schema source
+placements.csv,rank_max,float64,True,see handoff/schema source
+placements.csv,result_outcome,str,True,see handoff/schema source
+placements.csv,prize_money_raw,str,False,see handoff/schema source
+placements.csv,prize_money_usd,float64,False,USD
+placements.csv,source_html_file,str,False,see handoff/schema source
+placements.csv,parsed_at,str,False,see handoff/schema source
+placements.csv,game_id,str,False,see handoff/schema source
+placements.csv,game_slug,str,False,see handoff/schema source
+placements.csv,crawled_at,str,False,see handoff/schema source
+placements.csv,validation_status,str,False,see handoff/schema source
+placements.csv,placement_id,str,False,see handoff/schema source
+placements.csv,tournament_id,str,False,see handoff/schema source
+placements.csv,game_family,str,False,see handoff/schema source
+placements.csv,game_version,str,False,see handoff/schema source
+placements.csv,team_name,str,False,see handoff/schema source
+placements.csv,source_team_id_raw,float64,True,see handoff/schema source
+placements.csv,team_identity_status,str,False,see handoff/schema source
+placements.csv,placement_key_basis,str,False,see handoff/schema source
+placements.csv,start_date,str,False,see handoff/schema source
+placements.csv,year,int64,False,see handoff/schema source
+placements.csv,quarter,str,False,see handoff/schema source
+placements.csv,date_validation_status,str,False,see handoff/schema source
+placements.csv,tournament_prize_difference_usd,float64,False,USD
+placements.csv,prize_cents,int64,False,USD cents
+placements.csv,strict_quality,bool,False,see handoff/schema source
+twitch_monthly.csv,rank,int64,False,see handoff/schema source
+twitch_monthly.csv,game,str,False,see handoff/schema source
+twitch_monthly.csv,month,int64,False,see handoff/schema source
+twitch_monthly.csv,year,int64,False,see handoff/schema source
+twitch_monthly.csv,hours_watched,int64,False,see handoff/schema source
+twitch_monthly.csv,hours_streamed,int64,False,see handoff/schema source
+twitch_monthly.csv,peak_viewers,int64,False,see handoff/schema source
+twitch_monthly.csv,peak_channels,int64,False,see handoff/schema source
+twitch_monthly.csv,streamers,int64,False,see handoff/schema source
+twitch_monthly.csv,avg_viewers,int64,False,see handoff/schema source
+twitch_monthly.csv,avg_channels,int64,False,see handoff/schema source
+twitch_monthly.csv,avg_viewer_ratio,float64,False,see handoff/schema source
+twitch_monthly.csv,source_row_number,int64,False,see handoff/schema source
+twitch_monthly.csv,month_start,str,False,see handoff/schema source
+twitch_monthly.csv,platform,str,False,see handoff/schema source
+twitch_monthly.csv,measurement_level,str,False,see handoff/schema source
+twitch_monthly.csv,source_category_raw,str,False,see handoff/schema source
+twitch_monthly.csv,source_category,str,False,see handoff/schema source
+twitch_monthly.csv,source_file,str,False,see handoff/schema source
+twitch_monthly.csv,quality_status,str,False,see handoff/schema source
+twitch_monthly.csv,game_family,str,False,see handoff/schema source
+twitch_monthly.csv,analysis_role,str,False,see handoff/schema source
+twitch_monthly.csv,hours_watched_iqr_flag,bool,False,see handoff/schema source
+twitch_monthly.csv,avg_viewers_iqr_flag,bool,False,see handoff/schema source
+twitch_monthly.csv,peak_viewers_iqr_flag,bool,False,see handoff/schema source
+game_monthly_panel.csv,rank,int64,False,see handoff/schema source
+game_monthly_panel.csv,game,str,False,see handoff/schema source
+game_monthly_panel.csv,month,int64,False,see handoff/schema source
+game_monthly_panel.csv,year,int64,False,see handoff/schema source
+game_monthly_panel.csv,hours_watched,int64,False,see handoff/schema source
+game_monthly_panel.csv,hours_streamed,int64,False,see handoff/schema source
+game_monthly_panel.csv,peak_viewers,int64,False,see handoff/schema source
+game_monthly_panel.csv,peak_channels,int64,False,see handoff/schema source
+game_monthly_panel.csv,streamers,int64,False,see handoff/schema source
+game_monthly_panel.csv,avg_viewers,int64,False,see handoff/schema source
+game_monthly_panel.csv,avg_channels,int64,False,see handoff/schema source
+game_monthly_panel.csv,avg_viewer_ratio,float64,False,see handoff/schema source
+game_monthly_panel.csv,source_row_number,int64,False,see handoff/schema source
+game_monthly_panel.csv,month_start,str,False,see handoff/schema source
+game_monthly_panel.csv,platform,str,False,see handoff/schema source
+game_monthly_panel.csv,measurement_level,str,False,see handoff/schema source
+game_monthly_panel.csv,source_category_raw,str,False,see handoff/schema source
+game_monthly_panel.csv,source_category,str,False,see handoff/schema source
+game_monthly_panel.csv,source_file,str,False,see handoff/schema source
+game_monthly_panel.csv,quality_status,str,False,see handoff/schema source
+game_monthly_panel.csv,game_family,str,False,see handoff/schema source
+game_monthly_panel.csv,analysis_role,str,False,see handoff/schema source
+game_monthly_panel.csv,hours_watched_iqr_flag,bool,False,see handoff/schema source
+game_monthly_panel.csv,avg_viewers_iqr_flag,bool,False,see handoff/schema source
+game_monthly_panel.csv,peak_viewers_iqr_flag,bool,False,see handoff/schema source
+game_monthly_panel.csv,observed_tournament_count,int64,False,see handoff/schema source
+game_monthly_panel.csv,known_pool_count,int64,False,see handoff/schema source
+game_monthly_panel.csv,source_prize_pool_cents,float64,True,USD cents
+game_monthly_panel.csv,placement_reconciled_tournament_count,int64,False,see handoff/schema source
+game_monthly_panel.csv,placement_reconciled_pool_cents,float64,True,USD cents
+game_monthly_panel.csv,quality_flagged_tournament_count,int64,False,see handoff/schema source
+game_monthly_panel.csv,game_versions_present,str,True,see handoff/schema source
+game_monthly_panel.csv,earnings_month_observed,bool,False,see handoff/schema source
+game_monthly_panel.csv,source_prize_pool_usd,float64,True,USD
+game_monthly_panel.csv,placement_reconciled_pool_usd,float64,True,USD
+game_monthly_panel.csv,twitch_platform_hours_watched,int64,False,see handoff/schema source
+game_monthly_panel.csv,game_hours_share_of_twitch_pct,float64,False,percent
+country_prizes.csv,tournament_id,str,False,see handoff/schema source
+country_prizes.csv,game_family,str,False,see handoff/schema source
+country_prizes.csv,game_version,str,False,see handoff/schema source
+country_prizes.csv,year,int64,False,see handoff/schema source
+country_prizes.csv,country_code,str,True,see handoff/schema source
+country_prizes.csv,country_name,str,False,see handoff/schema source
+country_prizes.csv,prize_cents,int64,False,USD cents
+country_prizes.csv,source_player_count,int64,False,see handoff/schema source
+country_prizes.csv,source_url,str,False,see handoff/schema source
+country_year.csv,game_family,str,False,see handoff/schema source
+country_year.csv,year,int64,False,see handoff/schema source
+country_year.csv,country_code,str,True,see handoff/schema source
+country_year.csv,country_name,str,False,see handoff/schema source
+country_year.csv,prize_cents,int64,False,USD cents
+country_year.csv,share_of_reconciled_country_prize_pct,float64,False,percent
+forecast_prize_quarterly.csv,game_family,str,False,see handoff/schema source
+forecast_prize_quarterly.csv,quarter,str,False,see handoff/schema source
+forecast_prize_quarterly.csv,observed_tournament_count,float64,True,see handoff/schema source
+forecast_prize_quarterly.csv,pool_cents,float64,True,USD cents
+forecast_prize_quarterly.csv,strict_count,float64,True,see handoff/schema source
+forecast_prize_quarterly.csv,strict_pool_cents,float64,True,USD cents
+forecast_prize_quarterly.csv,target_prize_pool_usd,float64,True,USD
+forecast_prize_quarterly.csv,strict_target_prize_pool_usd,float64,True,USD
+forecast_prize_quarterly.csv,period_observed,bool,False,see handoff/schema source
+forecast_prize_quarterly.csv,split,str,False,see handoff/schema source
+forecast_prize_quarterly.csv,period_start,str,False,see handoff/schema source
