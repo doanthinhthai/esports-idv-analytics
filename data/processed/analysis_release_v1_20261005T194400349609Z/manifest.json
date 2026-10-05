@@ -1,0 +1,304 @@
+{
+  "stage": "analysis_release_v1_policy_clean_not_source_verified",
+  "created_at": "20261005T194400349609Z",
+  "tournaments": 14082,
+  "placements": 52551,
+  "twitch_rows": 369,
+  "strict_tournaments": 12540,
+  "country_rows": 57597,
+  "country_statuses": {
+    "reconciled": 12548,
+    "total_mismatch": 1076,
+    "unavailable": 458
+  },
+  "country_prize_coverage_pct": 97.66782274641808,
+  "checks": [
+    {
+      "check": "tournament_key",
+      "passed": true
+    },
+    {
+      "check": "placement_key",
+      "passed": true
+    },
+    {
+      "check": "placement_parent",
+      "passed": true
+    },
+    {
+      "check": "twitch_key",
+      "passed": true
+    },
+    {
+      "check": "panel_key_count",
+      "passed": true
+    },
+    {
+      "check": "dates",
+      "passed": true
+    },
+    {
+      "check": "families",
+      "passed": true
+    },
+    {
+      "check": "placement_totals",
+      "passed": true
+    },
+    {
+      "check": "country_key",
+      "passed": true
+    }
+  ],
+  "final_source_coverage_verified": false,
+  "inputs": {
+    "D:\\Semester_5\\Project\\esports-idv-analytics\\data\\processed\\earnings_clean_v2_20261005T194111242206Z\\tournaments_clean.csv": "3ab9d0dfc4d8c7596beef3ab331f65f954178c1e4a356ab2dcb6b881c668abc6",
+    "D:\\Semester_5\\Project\\esports-idv-analytics\\data\\processed\\earnings_clean_v2_20261005T194111242206Z\\placements_clean.csv": "f8ea90582adf248482a66a38ad562ee47fcaf75d3b20e148725200295b4e2877",
+    "D:\\Semester_5\\Project\\esports-idv-analytics\\data\\processed\\twitch_monthly_v1_20261005T185252303356Z\\game_monthly_primary.csv": "ac0cf6a655a9a047cebc4d29b675ff9afb7740ef6737236911a3ea045944aca5",
+    "D:\\Semester_5\\Project\\esports-idv-analytics\\data\\processed\\game_monthly_panel_v1_20261005T194249682226Z\\game_monthly_panel.csv": "ff1f0780f86944827a0f9768eedc516ed366fc1e0787422b9ec6e884e717e1c2"
+  },
+  "outputs_sha256": {
+    "country_audit.csv": "58000896eaa038c9cfdbb0f8961c2d54980d3a581d4d466898dbb337fd9660f7",
+    "country_candidate_rows_review_only.csv": "bec0786e366f57a97d7660ae2f66b9fbdda449753f62a952b872d00522b3c597",
+    "country_coverage.csv": "ede4db1c6e91cf9135634ab53db9475d4e33497024e2f60d009bd9a729a9d6c1",
+    "country_prizes.csv": "cc3058c86deaf6fd9d847e7fff149f76aa7cd5168861f55bbe7c920da05571de",
+    "country_quarantine.csv": "e3d7d1229e9d70219a8b6616315683b44edc4a6f6aa1735fcbc6adf041d277f3",
+    "country_year.csv": "44c520366f251b2fc23fb765659d998fa276215a2b743df4b28082101f08594e",
+    "data_dictionary.csv": "7f6cabca84ae3246dfbd26861eecfea30e35cab5d536bec9ddf91e3fe699b8bf",
+    "earnings_out_of_scope.csv": "c90cb38dcdc0ad7a150bbf5ebeb3acabd04ed46c3e80a244920ec4e23ea0757d",
+    "earnings_quarantine.csv": "48bff723bee532b6fad650f855152747c95e003c31f568d2c2ed9db63c3c4308",
+    "eda_annual_source_counts.csv": "fe8bcac5e176bdddddc9f818b9b6ad95ac3589c43b3e7a28270428643afc09ff",
+    "eda_correlations_descriptive.csv": "361c6c17002489bacb6ece627c8fc180325b7261141ff170ab5b6466ec8507ff",
+    "eda_earnings_descriptive.csv": "6a7f05cb987b656dedec5c6ba7495f4339dafce4a18b13a091bd032e908c4b46",
+    "eda_flagged_months.csv": "a3009fd618e11e56fda18c3593ad62ecd2c24418156c8ef4b300ab0fa1333ca2",
+    "eda_largest_tournaments.csv": "2cb0a4cf68aaa2b1fb9fa1a8dec34da16f2f6cdac390eb2d4a88b662d047cbb0",
+    "eda_missingness.csv": "c5d5bf7d6c1ac8ba92dd7e2341a30f57139d629ac83194c18a12bdde75be4b96",
+    "eda_monthly_growth.csv": "30c20f448e09a2f5e4572b9994fc7a8692b586ffd40242aa8ce318b52495efeb",
+    "eda_prize_train_seasonality.csv": "f1ab182cadecfb9171e46014ca602eba0e4a56f2db5af13cd62cedd35b6d680c",
+    "eda_quality_flags.csv": "2f682e4b38ac75880a90f770527c78437aa5e30a968c398bc95a0af1339a656c",
+    "eda_quality_sensitivity.csv": "4d4fafa4ecd67936d44a9b46a9f4756e395a9ccc44e9a3df6883bf2a37c38abd",
+    "EDA_REPORT_VI.md": "d37aa9143cfca3c7cf50d5d4f4b40d48af945cf8952b29d470f5f31041be7f9a",
+    "eda_train_autocorrelation.csv": "e8466ff06934c8e02603e90a6785fa97bad6659a0ec492ee35d66184fcb7cd60",
+    "eda_twitch_descriptive.csv": "12e8d3786f94b49c7fc8791c95e426a00efef5e414c9a84d4cf7aeddf408a87a",
+    "eda_twitch_train_seasonality.csv": "00bcd0072a19beaf873419dad622d7cd1b6eaff0e13f06f54233deb60b32ba92",
+    "forecast_baseline_predictions.csv": "582f6131399297a4c0f0cce1cf92f08d0bf53ff1644a38d4765929dd1afab379",
+    "forecast_baseline_scores.csv": "118d4fde1ffcb8fbe05ea9c9c79ac26b579292e76d825966456edfc1aa20939a",
+    "forecast_missing_quarters.csv": "070bed584c4a82019b740f7d841ba22850e81e4a3edec6a323c5f895be863906",
+    "forecast_prize_quarterly.csv": "e8b655cf3d9ec382c9004ac4ccfcd2645ba4d77679084b47064e494f121f7b0b",
+    "forecast_readiness.csv": "823524c54de711c8fd0caa6058bd5f797c042987484800168417eff94cc8da63",
+    "forecast_status.csv": "b04d18a707b558c2d126667de972d6590741e612c5a137f6cfa1a3bea1a37f9b",
+    "forecast_twitch_baseline_scores.csv": "5477a4a7b178e1d846269cab8ac5a8509aa2befeb14fa158bee6d24f00c64928",
+    "forecast_twitch_monthly.csv": "99b7076d52213507d907bc0210daa7fad7cd4bed0a8019d922faac4bdb172c59",
+    "game_monthly_panel.csv": "53a9fcc5e5b55cfe83cb069deeb8f6342c4fba741c104d6150af40d218834481",
+    "placements.csv": "855ed730cbc72a4ee9bd6cd755a932e9fc23517e8334ed78109a10094a3566e9",
+    "README_VI.md": "ce6931467613ce28be2ab705eb9fabf6c709b78dc723d53851a4f06ae47796dd",
+    "tournaments.csv": "d8b2c2245ebda0418b3df6ca5e0918bf160479d932b6eab5534865396d37e99d",
+    "twitch_monthly.csv": "ac0cf6a655a9a047cebc4d29b675ff9afb7740ef6737236911a3ea045944aca5",
+    "twitch_quarantine.csv": "cef1607323f5561cf7d5217ac0d929c6141d5a658ab96e163acb88e7b07dc04b",
+    "twitch_supplementary.csv": "f5c05e9e80deb52d5e4766f0f0e40db5a42687174ebd46f834ca2a40daab2655",
+    "eda\\01_twitch_hours.png": "82e73e3172faa8efee3f882278d7c4780d4d4fe5c17f1d1b06c91070f4f0337c",
+    "eda\\02_twitch_average.png": "cf5cd23345730081e421e2a9ea19227de1720b15e5e215c9d9647063555721aa",
+    "eda\\03_quarterly_prize.png": "032239aa8abd893f07c0216e5b447f281bc7105f59ccb408aeaedf73a8ab5de8",
+    "eda\\04_twitch_share.png": "4f14d74eecfdacaa199ea4d02c98a631d90313788113560b807810b017f4258b",
+    "eda\\05_country_coverage.png": "81cd358cf3d391118a2f197601a90dd546297f37200fbb64b1309e20a54912e1",
+    "eda\\06_prize_vs_hours.png": "437cfac3f6da243a6d0bd602c63c1dc5e124597bbb10a3c5ef85035a3c0dcfff"
+  },
+  "release_audit": [
+    {
+      "check": "hash:country_audit.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:country_candidate_rows_review_only.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:country_coverage.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:country_prizes.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:country_quarantine.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:country_year.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:earnings_out_of_scope.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:earnings_quarantine.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:eda_correlations_descriptive.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:eda_flagged_months.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:eda_missingness.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:eda_monthly_growth.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:eda_twitch_descriptive.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:eda_twitch_train_seasonality.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:forecast_baseline_predictions.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:forecast_baseline_scores.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:forecast_prize_quarterly.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:forecast_twitch_monthly.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:game_monthly_panel.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:placements.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:tournaments.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:twitch_monthly.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:twitch_quarantine.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:twitch_supplementary.csv",
+      "passed": true
+    },
+    {
+      "check": "hash:eda\\01_twitch_hours.png",
+      "passed": true
+    },
+    {
+      "check": "hash:eda\\02_twitch_average.png",
+      "passed": true
+    },
+    {
+      "check": "hash:eda\\03_quarterly_prize.png",
+      "passed": true
+    },
+    {
+      "check": "hash:eda\\04_twitch_share.png",
+      "passed": true
+    },
+    {
+      "check": "hash:eda\\05_country_coverage.png",
+      "passed": true
+    },
+    {
+      "check": "hash:eda\\06_prize_vs_hours.png",
+      "passed": true
+    },
+    {
+      "check": "input_unchanged:D:\\Semester_5\\Project\\esports-idv-analytics\\data\\processed\\earnings_clean_v2_20261005T194111242206Z\\tournaments_clean.csv",
+      "passed": true
+    },
+    {
+      "check": "input_unchanged:D:\\Semester_5\\Project\\esports-idv-analytics\\data\\processed\\earnings_clean_v2_20261005T194111242206Z\\placements_clean.csv",
+      "passed": true
+    },
+    {
+      "check": "input_unchanged:D:\\Semester_5\\Project\\esports-idv-analytics\\data\\processed\\twitch_monthly_v1_20261005T185252303356Z\\game_monthly_primary.csv",
+      "passed": true
+    },
+    {
+      "check": "input_unchanged:D:\\Semester_5\\Project\\esports-idv-analytics\\data\\processed\\game_monthly_panel_v1_20261005T194249682226Z\\game_monthly_panel.csv",
+      "passed": true
+    },
+    {
+      "check": "all_country_tournaments_audited",
+      "passed": true
+    },
+    {
+      "check": "country_audit_unique",
+      "passed": true
+    },
+    {
+      "check": "countries_only_reconciled",
+      "passed": true
+    },
+    {
+      "check": "country_totals",
+      "passed": true
+    },
+    {
+      "check": "quarterly_money_conserved",
+      "passed": true
+    },
+    {
+      "check": "quarterly_count_conserved",
+      "passed": true
+    },
+    {
+      "check": "placement_parent",
+      "passed": true
+    },
+    {
+      "check": "regular_grid:earnings:Counter-Strike",
+      "passed": true
+    },
+    {
+      "check": "regular_grid:earnings:Dota 2",
+      "passed": true
+    },
+    {
+      "check": "regular_grid:earnings:League of Legends",
+      "passed": true
+    },
+    {
+      "check": "regular_grid:earnings:Valorant",
+      "passed": true
+    },
+    {
+      "check": "regular_grid:twitch:Counter-Strike",
+      "passed": true
+    },
+    {
+      "check": "regular_grid:twitch:Dota 2",
+      "passed": true
+    },
+    {
+      "check": "regular_grid:twitch:League of Legends",
+      "passed": true
+    },
+    {
+      "check": "regular_grid:twitch:Valorant",
+      "passed": true
+    }
+  ]
+}

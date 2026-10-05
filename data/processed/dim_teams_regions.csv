@@ -1,0 +1,178 @@
+﻿Team_ID,Team_Name,Organization,Country_Name,Country_ISO_Code,Region,Primary_Game_ID,Established_Year
+TM_00001,T1,T1 Entertainment,South Korea,KOR,East Asia,G_01,2003
+TM_00002,Gen.G,Gen.G Esports,South Korea,KOR,East Asia,G_01,2017
+TM_00003,Team Liquid,Team Liquid,United States,USA,North America,G_02,2000
+TM_00004,OG,OG Esports,Denmark,DNK,Europe,G_02,2015
+TM_00005,Team Spirit,Team Spirit,Ukraine,UKR,Eastern Europe,G_02,2015
+TM_00006,Natus Vincere,NAVI,Ukraine,UKR,Eastern Europe,G_03,2009
+TM_00007,G2 Esports,G2 Esports,Germany,DEU,Europe,G_01,2014
+TM_00008,Fnatic,Fnatic Ltd,United Kingdom,GBR,Europe,G_01,2004
+TM_00009,FaZe Clan,FaZe Clan Inc.,United States,USA,North America,G_03,2010
+TM_00010,GAM Esports,GAM Esports,Vietnam,VNM,Southeast Asia,G_01,2014
+TM_00011,Team Flash,Team Flash,Vietnam,VNM,Southeast Asia,G_06,2017
+TM_00012,Saigon Phantom,SGP,Vietnam,VNM,Southeast Asia,G_06,2017
+TM_00013,RRQ,Rex Regum Qeon,Indonesia,IDN,Southeast Asia,G_07,2013
+TM_00014,ONIC Esports,ONIC,Indonesia,IDN,Southeast Asia,G_07,2018
+TM_00015,Blacklist International,Blacklist,Philippines,PHL,Southeast Asia,G_07,2020
+TM_00016,LOUD,LOUD Esports,Brazil,BRA,South America,G_04,2019
+TM_00017,Paper Rex,Paper Rex,Singapore,SGP,Southeast Asia,G_04,2020
+TM_00018,Eclipse Team,Eclipse Team Org,Canada,CAN,North America,G_01,2013
+TM_00019,Titan Elite,Titan Elite Org,Vietnam,VNM,Southeast Asia,G_04,2016
+TM_00020,Titan Team,Titan Team Org,China,CHN,East Asia,G_01,2013
+TM_00021,Apex Force,Apex Force Org,Japan,JPN,East Asia,G_20,2013
+TM_00022,Infinity Legion,Infinity Legion Org,Australia,AUS,Oceania,G_14,2019
+TM_00023,Rebellion Warriors,Rebellion Warriors Org,Denmark,DNK,Europe,G_01,2015
+TM_00024,Dynasty Clan,Dynasty Clan Org,Denmark,DNK,Europe,G_05,2011
+TM_00025,Vanguard Clan,Vanguard Clan Org,United States,USA,North America,G_13,2023
+TM_00026,Eclipse Gaming,Eclipse Gaming Org,Germany,DEU,Europe,G_20,2021
+TM_00027,Vanguard Warriors,Vanguard Warriors Org,Brazil,BRA,South America,G_18,2011
+TM_00028,Valor Elite,Valor Elite Org,Australia,AUS,Oceania,G_10,2013
+TM_00029,Infinity Squad,Infinity Squad Org,United States,USA,North America,G_02,2011
+TM_00030,Imperium Squad,Imperium Squad Org,Philippines,PHL,Southeast Asia,G_04,2017
+TM_00031,Valor Clan,Valor Clan Org,Germany,DEU,Europe,G_06,2013
+TM_00032,Rebellion Force,Rebellion Force Org,Denmark,DNK,Europe,G_03,2021
+TM_00033,Alliance Warriors,Alliance Warriors Org,Philippines,PHL,Southeast Asia,G_06,2014
+TM_00034,Phoenix Gaming,Phoenix Gaming Org,Australia,AUS,Oceania,G_08,2013
+TM_00035,Phoenix Team,Phoenix Team Org,Indonesia,IDN,Southeast Asia,G_19,2020
+TM_00036,Alliance Club,Alliance Club Org,Saudi Arabia,SAU,Middle East,G_13,2014
+TM_00037,Eclipse Elite,Eclipse Elite Org,Vietnam,VNM,Southeast Asia,G_08,2016
+TM_00038,Infinity Club,Infinity Club Org,United Kingdom,GBR,Europe,G_12,2018
+TM_00039,Nova Esports,Nova Esports Org,Saudi Arabia,SAU,Middle East,G_03,2012
+TM_00040,Titan Warriors,Titan Warriors Org,Thailand,THA,Southeast Asia,G_14,2016
+TM_00041,Eclipse Force,Eclipse Force Org,Brazil,BRA,South America,G_17,2023
+TM_00042,Eclipse Clan,Eclipse Clan Org,South Korea,KOR,East Asia,G_04,2011
+TM_00043,Rebellion Legion,Rebellion Legion Org,Sweden,SWE,Europe,G_14,2010
+TM_00044,Dynasty Club,Dynasty Club Org,Sweden,SWE,Europe,G_17,2015
+TM_00045,Apex Elite,Apex Elite Org,Thailand,THA,Southeast Asia,G_18,2015
+TM_00046,Nova Team,Nova Team Org,Sweden,SWE,Europe,G_08,2019
+TM_00047,Legacy Esports,Legacy Esports Org,United States,USA,North America,G_03,2022
+TM_00048,Invictus Legion,Invictus Legion Org,Australia,AUS,Oceania,G_05,2018
+TM_00049,Solitude Team,Solitude Team Org,Thailand,THA,Southeast Asia,G_09,2018
+TM_00050,Imperium Clan,Imperium Clan Org,Indonesia,IDN,Southeast Asia,G_10,2017
+TM_00051,Vanguard Team,Vanguard Team Org,Japan,JPN,East Asia,G_15,2013
+TM_00052,Infinity Gaming,Infinity Gaming Org,Philippines,PHL,Southeast Asia,G_19,2011
+TM_00053,Titan Gaming,Titan Gaming Org,China,CHN,East Asia,G_08,2023
+TM_00054,Invictus Elite,Invictus Elite Org,Saudi Arabia,SAU,Middle East,G_07,2019
+TM_00055,Legacy Warriors,Legacy Warriors Org,Saudi Arabia,SAU,Middle East,G_08,2013
+TM_00056,Solitude Clan,Solitude Clan Org,Canada,CAN,North America,G_04,2016
+TM_00057,Alliance Team,Alliance Team Org,Thailand,THA,Southeast Asia,G_09,2023
+TM_00058,Vanguard Gaming,Vanguard Gaming Org,United States,USA,North America,G_15,2020
+TM_00059,Legacy Team,Legacy Team Org,Ukraine,UKR,Eastern Europe,G_16,2023
+TM_00060,Alliance Squad,Alliance Squad Org,United Kingdom,GBR,Europe,G_09,2016
+TM_00061,Invictus Team,Invictus Team Org,Australia,AUS,Oceania,G_16,2014
+TM_00062,Nova Clan,Nova Clan Org,Indonesia,IDN,Southeast Asia,G_02,2010
+TM_00063,Legacy Force,Legacy Force Org,China,CHN,East Asia,G_19,2023
+TM_00064,Nova Force,Nova Force Org,Japan,JPN,East Asia,G_06,2011
+TM_00065,Infinity Elite,Infinity Elite Org,Canada,CAN,North America,G_19,2019
+TM_00066,Eclipse Warriors,Eclipse Warriors Org,France,FRA,Europe,G_08,2012
+TM_00067,Phoenix Esports,Phoenix Esports Org,Sweden,SWE,Europe,G_15,2010
+TM_00068,Vanguard Esports,Vanguard Esports Org,Brazil,BRA,South America,G_20,2018
+TM_00069,Eclipse Club,Eclipse Club Org,Indonesia,IDN,Southeast Asia,G_17,2015
+TM_00070,Valor Squad,Valor Squad Org,United States,USA,North America,G_08,2012
+TM_00071,Zenith Elite,Zenith Elite Org,Brazil,BRA,South America,G_18,2022
+TM_00072,Zenith Esports,Zenith Esports Org,Japan,JPN,East Asia,G_01,2012
+TM_00073,Vanguard Force,Vanguard Force Org,Denmark,DNK,Europe,G_04,2012
+TM_00074,Legacy Squad,Legacy Squad Org,Denmark,DNK,Europe,G_17,2023
+TM_00075,Solitude Squad,Solitude Squad Org,China,CHN,East Asia,G_03,2010
+TM_00076,Invictus Squad,Invictus Squad Org,South Korea,KOR,East Asia,G_11,2012
+TM_00077,Solitude Force,Solitude Force Org,Brazil,BRA,South America,G_18,2010
+TM_00078,Invictus Force,Invictus Force Org,Canada,CAN,North America,G_03,2010
+TM_00079,Invictus Warriors,Invictus Warriors Org,Germany,DEU,Europe,G_19,2012
+TM_00080,Valor Gaming,Valor Gaming Org,China,CHN,East Asia,G_10,2015
+TM_00081,Solitude Gaming,Solitude Gaming Org,Thailand,THA,Southeast Asia,G_06,2012
+TM_00082,Nova Legion,Nova Legion Org,Canada,CAN,North America,G_13,2013
+TM_00083,Apex Team,Apex Team Org,Philippines,PHL,Southeast Asia,G_08,2016
+TM_00084,Titan Squad,Titan Squad Org,France,FRA,Europe,G_09,2015
+TM_00085,Phoenix Warriors,Phoenix Warriors Org,Ukraine,UKR,Eastern Europe,G_12,2019
+TM_00086,Imperium Elite,Imperium Elite Org,Japan,JPN,East Asia,G_04,2013
+TM_00087,Valor Warriors,Valor Warriors Org,Australia,AUS,Oceania,G_07,2011
+TM_00088,Zenith Warriors,Zenith Warriors Org,Sweden,SWE,Europe,G_17,2015
+TM_00089,Zenith Team,Zenith Team Org,South Korea,KOR,East Asia,G_10,2016
+TM_00090,Alliance Legion,Alliance Legion Org,France,FRA,Europe,G_15,2020
+TM_00091,Legacy Club,Legacy Club Org,Indonesia,IDN,Southeast Asia,G_17,2020
+TM_00092,Infinity Team,Infinity Team Org,Philippines,PHL,Southeast Asia,G_10,2012
+TM_00093,Solitude Elite,Solitude Elite Org,United States,USA,North America,G_15,2013
+TM_00094,Imperium Team,Imperium Team Org,United Kingdom,GBR,Europe,G_16,2012
+TM_00095,Phoenix Legion,Phoenix Legion Org,Japan,JPN,East Asia,G_18,2019
+TM_00096,Titan Club,Titan Club Org,France,FRA,Europe,G_11,2012
+TM_00097,Phoenix Force,Phoenix Force Org,Ukraine,UKR,Eastern Europe,G_14,2017
+TM_00098,Dynasty Warriors,Dynasty Warriors Org,Ukraine,UKR,Eastern Europe,G_02,2016
+TM_00099,Imperium Legion,Imperium Legion Org,South Korea,KOR,East Asia,G_19,2010
+TM_00100,Imperium Warriors,Imperium Warriors Org,Germany,DEU,Europe,G_10,2018
+TM_00101,Legacy Gaming,Legacy Gaming Org,Denmark,DNK,Europe,G_14,2016
+TM_00102,Solitude Club,Solitude Club Org,South Korea,KOR,East Asia,G_03,2023
+TM_00103,Nova Squad,Nova Squad Org,Brazil,BRA,South America,G_06,2016
+TM_00104,Alliance Clan,Alliance Clan Org,France,FRA,Europe,G_07,2015
+TM_00105,Dynasty Gaming,Dynasty Gaming Org,South Korea,KOR,East Asia,G_08,2019
+TM_00106,Dynasty Legion,Dynasty Legion Org,Canada,CAN,North America,G_19,2021
+TM_00107,Rebellion Elite,Rebellion Elite Org,Denmark,DNK,Europe,G_12,2019
+TM_00108,Infinity Esports,Infinity Esports Org,Indonesia,IDN,Southeast Asia,G_03,2021
+TM_00109,Vanguard Elite,Vanguard Elite Org,Sweden,SWE,Europe,G_20,2022
+TM_00110,Apex Warriors,Apex Warriors Org,Japan,JPN,East Asia,G_11,2023
+TM_00111,Legacy Legion,Legacy Legion Org,Japan,JPN,East Asia,G_09,2016
+TM_00112,Alliance Elite,Alliance Elite Org,Brazil,BRA,South America,G_08,2019
+TM_00113,Apex Legion,Apex Legion Org,United Kingdom,GBR,Europe,G_11,2023
+TM_00114,Solitude Legion,Solitude Legion Org,United States,USA,North America,G_08,2018
+TM_00115,Valor Legion,Valor Legion Org,Philippines,PHL,Southeast Asia,G_10,2018
+TM_00116,Eclipse Squad,Eclipse Squad Org,Germany,DEU,Europe,G_15,2014
+TM_00117,Dynasty Team,Dynasty Team Org,Australia,AUS,Oceania,G_06,2021
+TM_00118,Infinity Clan,Infinity Clan Org,Indonesia,IDN,Southeast Asia,G_10,2012
+TM_00119,Zenith Club,Zenith Club Org,China,CHN,East Asia,G_18,2020
+TM_00120,Infinity Force,Infinity Force Org,Ukraine,UKR,Eastern Europe,G_20,2016
+TM_00121,Nova Elite,Nova Elite Org,Sweden,SWE,Europe,G_19,2021
+TM_00122,Dynasty Squad,Dynasty Squad Org,Canada,CAN,North America,G_07,2020
+TM_00123,Invictus Esports,Invictus Esports Org,Vietnam,VNM,Southeast Asia,G_09,2010
+TM_00124,Zenith Legion,Zenith Legion Org,Thailand,THA,Southeast Asia,G_10,2011
+TM_00125,Alliance Esports,Alliance Esports Org,Australia,AUS,Oceania,G_16,2019
+TM_00126,Phoenix Elite,Phoenix Elite Org,China,CHN,East Asia,G_14,2014
+TM_00127,Nova Club,Nova Club Org,South Korea,KOR,East Asia,G_09,2017
+TM_00128,Titan Legion,Titan Legion Org,Ukraine,UKR,Eastern Europe,G_16,2015
+TM_00129,Dynasty Force,Dynasty Force Org,Ukraine,UKR,Eastern Europe,G_02,2015
+TM_00130,Zenith Force,Zenith Force Org,Philippines,PHL,Southeast Asia,G_06,2010
+TM_00131,Vanguard Club,Vanguard Club Org,Canada,CAN,North America,G_15,2017
+TM_00132,Dynasty Elite,Dynasty Elite Org,Vietnam,VNM,Southeast Asia,G_13,2018
+TM_00133,Apex Squad,Apex Squad Org,Japan,JPN,East Asia,G_09,2021
+TM_00134,Alliance Gaming,Alliance Gaming Org,Brazil,BRA,South America,G_04,2021
+TM_00135,Imperium Esports,Imperium Esports Org,Denmark,DNK,Europe,G_11,2023
+TM_00136,Rebellion Esports,Rebellion Esports Org,Thailand,THA,Southeast Asia,G_06,2019
+TM_00137,Eclipse Legion,Eclipse Legion Org,Sweden,SWE,Europe,G_14,2023
+TM_00138,Valor Team,Valor Team Org,Philippines,PHL,Southeast Asia,G_20,2020
+TM_00139,Infinity Warriors,Infinity Warriors Org,United States,USA,North America,G_05,2023
+TM_00140,Vanguard Legion,Vanguard Legion Org,Denmark,DNK,Europe,G_18,2015
+TM_00141,Solitude Esports,Solitude Esports Org,Brazil,BRA,South America,G_10,2012
+TM_00142,Apex Gaming,Apex Gaming Org,Indonesia,IDN,Southeast Asia,G_20,2022
+TM_00143,Apex Club,Apex Club Org,Thailand,THA,Southeast Asia,G_04,2010
+TM_00144,Titan Clan,Titan Clan Org,Brazil,BRA,South America,G_03,2019
+TM_00145,Vanguard Squad,Vanguard Squad Org,Australia,AUS,Oceania,G_12,2019
+TM_00146,Rebellion Squad,Rebellion Squad Org,Denmark,DNK,Europe,G_01,2021
+TM_00147,Rebellion Clan,Rebellion Clan Org,Brazil,BRA,South America,G_11,2014
+TM_00148,Legacy Elite,Legacy Elite Org,Brazil,BRA,South America,G_14,2017
+TM_00149,Zenith Gaming,Zenith Gaming Org,Saudi Arabia,SAU,Middle East,G_17,2013
+TM_00150,Nova Gaming,Nova Gaming Org,United Kingdom,GBR,Europe,G_20,2013
+TM_00151,Valor Esports,Valor Esports Org,Philippines,PHL,Southeast Asia,G_17,2016
+TM_00152,Valor Club,Valor Club Org,Indonesia,IDN,Southeast Asia,G_12,2013
+TM_00153,Phoenix Clan,Phoenix Clan Org,Brazil,BRA,South America,G_19,2012
+TM_00154,Rebellion Gaming,Rebellion Gaming Org,United States,USA,North America,G_17,2013
+TM_00155,Zenith Squad,Zenith Squad Org,Australia,AUS,Oceania,G_13,2021
+TM_00156,Imperium Club,Imperium Club Org,Vietnam,VNM,Southeast Asia,G_20,2012
+TM_00157,Rebellion Team,Rebellion Team Org,Japan,JPN,East Asia,G_14,2022
+TM_00158,Invictus Club,Invictus Club Org,Canada,CAN,North America,G_11,2010
+TM_00159,Phoenix Club,Phoenix Club Org,Canada,CAN,North America,G_19,2010
+TM_00160,Rebellion Club,Rebellion Club Org,Brazil,BRA,South America,G_16,2011
+TM_00161,Phoenix Squad,Phoenix Squad Org,Indonesia,IDN,Southeast Asia,G_02,2018
+TM_00162,Valor Force,Valor Force Org,Saudi Arabia,SAU,Middle East,G_16,2014
+TM_00163,Zenith Clan,Zenith Clan Org,Thailand,THA,Southeast Asia,G_18,2011
+TM_00164,Alliance Force,Alliance Force Org,United States,USA,North America,G_15,2015
+TM_00165,Titan Force,Titan Force Org,Sweden,SWE,Europe,G_20,2020
+TM_00166,Apex Esports,Apex Esports Org,Saudi Arabia,SAU,Middle East,G_10,2016
+TM_00167,Invictus Clan,Invictus Clan Org,Vietnam,VNM,Southeast Asia,G_20,2019
+TM_00168,Legacy Clan,Legacy Clan Org,Sweden,SWE,Europe,G_07,2017
+TM_00169,Invictus Gaming,Invictus Gaming Org,Saudi Arabia,SAU,Middle East,G_04,2018
+TM_00170,Apex Clan,Apex Clan Org,Denmark,DNK,Europe,G_06,2022
+TM_00171,Dynasty Esports,Dynasty Esports Org,South Korea,KOR,East Asia,G_08,2011
+TM_00172,Solitude Warriors,Solitude Warriors Org,Japan,JPN,East Asia,G_11,2012
+TM_00173,Imperium Force,Imperium Force Org,United Kingdom,GBR,Europe,G_13,2017
+TM_00174,Titan Esports,Titan Esports Org,Germany,DEU,Europe,G_18,2022
+TM_00175,Eclipse Esports,Eclipse Esports Org,Indonesia,IDN,Southeast Asia,G_07,2019
+TM_00176,Nova Warriors,Nova Warriors Org,Germany,DEU,Europe,G_06,2020
+TM_00177,Imperium Gaming,Imperium Gaming Org,Ukraine,UKR,Eastern Europe,G_13,2019

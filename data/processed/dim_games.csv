@@ -1,0 +1,21 @@
+﻿Game_ID,Game_Title,Genre,Publisher,Release_Year,Platform,Ecosystem
+G_01,League of Legends,MOBA,Riot Games,2009,PC,Franchised Leagues
+G_02,Dota 2,MOBA,Valve,2013,PC,Crowdfunded Circuit
+G_03,Counter-Strike 2,Tactical FPS,Valve,2012,PC,Open Circuit & Majors
+G_04,VALORANT,Tactical FPS,Riot Games,2020,PC,VCT Partnered Leagues
+G_05,PUBG Mobile,Battle Royale,Krafton / Tencent,2018,Mobile,PMGC Pro Leagues
+G_06,Arena of Valor,MOBA,Tencent / Garena,2016,Mobile,AIC & AWC Circuit
+G_07,Mobile Legends: Bang Bang,MOBA,Moonton,2016,Mobile,MPL Leagues & M-Series
+G_08,Fortnite,Battle Royale,Epic Games,2017,Multi-platform,FNCS World Circuit
+G_09,Rainbow Six Siege,Tactical FPS,Ubisoft,2015,PC,Six Invitational
+G_10,Rocket League,Sports,Psyonix,2015,Multi-platform,RLCS Championship
+G_11,Overwatch 2,Hero Shooter,Blizzard,2016,PC,OWCS Global Circuit
+G_12,Apex Legends,Battle Royale,EA / Respawn,2019,Multi-platform,ALGS Global Series
+G_13,StarCraft II,RTS,Blizzard,2010,PC,ESL Pro Tour
+G_14,Free Fire,Battle Royale,Garena,2017,Mobile,FFWS World Series
+G_15,Call of Duty: Warzone,Battle Royale,Activision,2020,Multi-platform,WSOW Circuit
+G_16,Tekken 8,Fighting,Bandai Namco,2024,Multi-platform,Tekken World Tour
+G_17,Street Fighter 6,Fighting,Capcom,2023,Multi-platform,Capcom Pro Tour
+G_18,PUBG: Battlegrounds,Battle Royale,Krafton,2017,PC,PGS & PGC Global
+G_19,Teamfight Tactics,Auto Battler,Riot Games,2019,PC / Mobile,TFT Championship
+G_20,CrossFire,Tactical FPS,Smilegate,2007,PC,CFS World Finals

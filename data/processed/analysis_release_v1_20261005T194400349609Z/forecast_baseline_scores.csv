@@ -1,0 +1,9 @@
+﻿game_family,split,evaluation_rows,MAE_usd,RMSE_usd,evaluation
+Counter-Strike,test,4,2205409.9050000003,2751281.5333519084,rolling_one_step; earlier observed test targets allowed as lag
+Counter-Strike,validation,4,526852.4250000003,683136.7020632478,rolling_one_step; earlier observed test targets allowed as lag
+Dota 2,test,4,2587195.51,3124234.8455692865,rolling_one_step; earlier observed test targets allowed as lag
+Dota 2,validation,4,2712214.8075,3797333.560281619,rolling_one_step; earlier observed test targets allowed as lag
+League of Legends,test,3,944882.2266666666,1186418.2349778647,rolling_one_step; earlier observed test targets allowed as lag
+League of Legends,validation,4,1531680.745,2024906.1934313052,rolling_one_step; earlier observed test targets allowed as lag
+Valorant,test,2,993661.7949999999,1003853.0676400046,rolling_one_step; earlier observed test targets allowed as lag
+Valorant,validation,4,441831.40750000003,520630.27462583233,rolling_one_step; earlier observed test targets allowed as lag

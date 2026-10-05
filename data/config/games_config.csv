@@ -1,0 +1,23 @@
+﻿game_id,game_slug,game_name,game_family,genre,platform,enabled,priority,earnings_game_id,earnings_events_url,earnings_status,escharts_game_id,escharts_game_url,escharts_status,liquipedia_wiki,liquipedia_game_url,liquipedia_status,notes
+G001,csgo,Counter-Strike: Global Offensive,Counter-Strike,Tactical FPS,PC,true,1,245,https://www.esportsearnings.com/games/245-counter-strike-global-offensive/events,crawling,,https://escharts.com/tournaments/csgo,url_verified,,,not_verified,Keep separate from CS2 | Analyze with CS2 under Counter-Strike; preserve version; Charts listing is shared with CS2
+G002,cs2,Counter-Strike 2,Counter-Strike,Tactical FPS,PC,true,1,839,https://www.esportsearnings.com/games/839-counter-strike-2/events,ready,,https://escharts.com/tournaments/cs2,url_verified,,,not_verified,Keep separate from CSGO | Analyze with CSGO under Counter-Strike; preserve version; Charts listing is shared with CSGO
+G003,dota2,Dota 2,Dota 2,MOBA,PC,true,1,231,https://www.esportsearnings.com/games/231-dota-2/events,ready,,https://escharts.com/tournaments/dota2,url_verified,,,not_verified,Project scope: 2012-2025; use actual source coverage
+G004,lol,League of Legends,League of Legends,MOBA,PC,true,1,164,https://www.esportsearnings.com/games/164-league-of-legends/events,ready,,https://escharts.com/tournaments/lol,url_verified,,,not_verified,Project scope: 2012-2025; use actual source coverage
+G005,valorant,VALORANT,Valorant,Tactical FPS,PC,true,1,646,https://www.esportsearnings.com/games/646-valorant/events,ready,,https://escharts.com/tournaments/valorant,url_verified,,,not_verified,Use actual history; pre-existence years are not missing data
+G006,pubg_mobile,PUBG Mobile,PUBG,Battle Royale,Mobile,false,1,,,not_verified,,,not_verified,,,not_verified,
+G007,mlbb,Mobile Legends: Bang Bang,Mobile Legends,MOBA,Mobile,false,1,,,not_verified,,,not_verified,,,not_verified,
+G008,aov,Arena of Valor,Arena of Valor,MOBA,Mobile,false,1,,,not_verified,,,not_verified,,,not_verified,
+G009,r6,Rainbow Six Siege,Rainbow Six,Tactical FPS,PC,false,2,,,not_verified,,,not_verified,,,not_verified,
+G010,crossfire,CrossFire,CrossFire,Tactical FPS,PC,false,2,,,not_verified,,,not_verified,,,not_verified,
+G011,hok,Honor of Kings,Honor of Kings,MOBA,Mobile,false,2,,,not_verified,,,not_verified,,,not_verified,
+G012,wild_rift,League of Legends: Wild Rift,League of Legends,MOBA,Mobile,false,2,,,not_verified,,,not_verified,,,not_verified,
+G013,pubg,PUBG: Battlegrounds,PUBG,Battle Royale,PC,false,2,,,not_verified,,,not_verified,,,not_verified,
+G014,fortnite,Fortnite,Fortnite,Battle Royale,Multi-platform,false,2,,,not_verified,,,not_verified,,,not_verified,May contain individual and team results
+G015,apex,Apex Legends,Apex Legends,Battle Royale,Multi-platform,false,2,,,not_verified,,,not_verified,,,not_verified,
+G016,free_fire,Free Fire,Free Fire,Battle Royale,Mobile,false,2,,,not_verified,,,not_verified,,,not_verified,
+G017,rocket_league,Rocket League,Rocket League,Sports,Multi-platform,false,3,,,not_verified,,,not_verified,,,not_verified,
+G018,starcraft2,StarCraft II,StarCraft,RTS,PC,false,3,,,not_verified,,,not_verified,,,not_verified,Requires individual participant parser
+G019,overwatch,Overwatch,Overwatch,Hero Shooter,PC,false,3,,,not_verified,,,not_verified,,,not_verified,Keep separate from Overwatch 2
+G020,overwatch2,Overwatch 2,Overwatch,Hero Shooter,PC,false,3,,,not_verified,,,not_verified,,,not_verified,Keep separate from Overwatch
+G021,sf6,Street Fighter 6,Street Fighter,Fighting,Multi-platform,false,3,,,not_verified,,,not_verified,,,not_verified,Requires individual participant parser
+G022,tekken8,Tekken 8,Tekken,Fighting,Multi-platform,false,3,,,not_verified,,,not_verified,,,not_verified,Requires individual participant parser

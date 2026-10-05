@@ -1,0 +1,25 @@
+﻿game_family,target,split,n,MAE,RMSE,evaluation
+Counter-Strike,hours_watched,validation,12,13553879.5,17216250.141396273,rolling_one_step_seasonal_naive_lag12
+Counter-Strike,hours_watched,test,9,15761098.777777778,18967698.60045129,rolling_one_step_seasonal_naive_lag12
+Counter-Strike,avg_viewers,validation,12,18734.416666666668,23871.333591080886,rolling_one_step_seasonal_naive_lag12
+Counter-Strike,avg_viewers,test,9,21212.333333333332,25650.06313832385,rolling_one_step_seasonal_naive_lag12
+Counter-Strike,peak_viewers,validation,12,330628.75,438742.34536940925,rolling_one_step_seasonal_naive_lag12
+Counter-Strike,peak_viewers,test,9,279262.6666666667,377687.6691415217,rolling_one_step_seasonal_naive_lag12
+Dota 2,hours_watched,validation,12,8072313.583333333,9999304.74346399,rolling_one_step_seasonal_naive_lag12
+Dota 2,hours_watched,test,9,6066639.666666667,9902409.377201574,rolling_one_step_seasonal_naive_lag12
+Dota 2,avg_viewers,validation,12,11000.25,13584.336620412005,rolling_one_step_seasonal_naive_lag12
+Dota 2,avg_viewers,test,9,8200.666666666666,13613.716840827203,rolling_one_step_seasonal_naive_lag12
+Dota 2,peak_viewers,validation,12,121504.75,169418.2915968147,rolling_one_step_seasonal_naive_lag12
+Dota 2,peak_viewers,test,9,275051.22222222225,489095.15623410814,rolling_one_step_seasonal_naive_lag12
+League of Legends,hours_watched,validation,12,28272733.75,30522015.35749659,rolling_one_step_seasonal_naive_lag12
+League of Legends,hours_watched,test,9,11675959.444444444,12929751.34553969,rolling_one_step_seasonal_naive_lag12
+League of Legends,avg_viewers,validation,12,38704.5,41616.66152115841,rolling_one_step_seasonal_naive_lag12
+League of Legends,avg_viewers,test,9,15362.222222222223,17049.406675893446,rolling_one_step_seasonal_naive_lag12
+League of Legends,peak_viewers,validation,12,282221.5833333333,348017.7925811888,rolling_one_step_seasonal_naive_lag12
+League of Legends,peak_viewers,test,9,213915.0,288538.6339302474,rolling_one_step_seasonal_naive_lag12
+Valorant,hours_watched,validation,12,15310957.333333334,22748739.1680637,rolling_one_step_seasonal_naive_lag12
+Valorant,hours_watched,test,9,12353682.777777778,14981091.757289479,rolling_one_step_seasonal_naive_lag12
+Valorant,avg_viewers,validation,12,20957.166666666668,31356.88785046543,rolling_one_step_seasonal_naive_lag12
+Valorant,avg_viewers,test,9,17369.666666666668,20516.815377202725,rolling_one_step_seasonal_naive_lag12
+Valorant,peak_viewers,validation,12,343198.75,453271.3613305132,rolling_one_step_seasonal_naive_lag12
+Valorant,peak_viewers,test,9,178718.55555555556,238169.9671856681,rolling_one_step_seasonal_naive_lag12
