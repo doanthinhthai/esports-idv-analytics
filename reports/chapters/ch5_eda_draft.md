@@ -83,6 +83,20 @@ Với Random Forest target nguồn, `lag_4` có importance lớn nhất, khoản
 
 Ba target test bị thiếu là League of Legends 2025Q4, Valorant 2025Q2 và Valorant 2025Q4. Mô hình vẫn xuất dự báo cho các quý này để trực quan hóa nhưng không tính chúng vào MAE, RMSE hoặc R². Kết quả với target strict-quality được xuất thành phân tích độ nhạy riêng, không dùng thay cho việc xác minh độ phủ nguồn.
 
+### 5.4.3. Phân tích sai số
+
+Sai số Random Forest không phân bố đều giữa các quý. Ba sai số tuyệt đối lớn nhất trên validation và test là Dota 2 2024Q3, Counter-Strike 2025Q4 và Dota 2 2025Q4. Mô hình dự báo cao hơn actual lần lượt khoảng 5,68 triệu USD, 5,59 triệu USD và 5,54 triệu USD. Q4 chiếm khoảng 36,6% tổng sai số tuyệt đối của các kỳ được đánh giá; Dota 2 chiếm khoảng 42,3%.
+
+Mẫu sai số này phù hợp với giới hạn của mô hình dùng biến trễ: sau một quý hoặc mùa giải có quỹ thưởng lớn, mô hình có thể phản ứng chậm với mức giảm đột ngột. Tuy nhiên, actual 2025 vẫn chịu rủi ro thiếu độ phủ nguồn. Vì vậy residual lớn có thể phản ánh đồng thời biến động thị trường và chất lượng thu thập dữ liệu. Dự báo nên được dùng như tín hiệu lập kế hoạch theo quý và cần kiểm tra thủ công đối với Dota 2 hoặc Q4.
+
+### 5.4.4. Hàm ý trực quan và storytelling
+
+Dota 2 có tổng quỹ thưởng quan sát lớn nhất, khoảng 380,57 triệu USD, nhưng đồng thời có các quý đột biến và sai số dự báo lớn. League of Legends có trung vị giờ xem Twitch hàng tháng cao nhất, khoảng 99,0 triệu giờ, trong khi tương quan Pearson giữa giờ xem và quỹ thưởng chỉ khoảng 0,050. Riêng Dota 2 có tương quan mô tả cao hơn, khoảng 0,698. Các hệ số này không chứng minh tiền thưởng gây ra lượng người xem.
+
+Trong dữ liệu quốc gia đã đối chiếu, quốc gia tuyển thủ đứng đầu lần lượt là Đan Mạch với Counter-Strike, Trung Quốc với Dota 2, Hàn Quốc với League of Legends và Hoa Kỳ với Valorant. Độ phủ tiền thưởng quốc gia theo family nằm trong khoảng 92,9%-99,2%. Dashboard phải gọi đúng đây là quốc gia tuyển thủ và hiển thị độ phủ cùng bản đồ.
+
+Các kết quả chỉ hỗ trợ tín hiệu ưu tiên tài trợ hoặc phân bổ thử nghiệm. Dữ liệu không có doanh thu, chi phí tài trợ và lợi nhuận nên không đủ cơ sở tính hoặc tuyên bố ROI.
+
 ## 5.5. Giới hạn
 
 Release là policy-clean chứ không phải chứng nhận độ chính xác hoặc độ phủ nguồn. Quỹ thưởng là USD danh nghĩa. Twitch kết thúc ở 2024-09 và không có YouTube. Dữ liệu country là quốc gia tuyển thủ, không phải quốc gia khán giả. Bộ lọc nghiêm ngặt có thể thiên lệch về các giải dễ thu thập. Các tháng/quý bùng nổ được giữ nguyên trong EDA; mọi xử lý ngoại lệ cho mô hình phải được fit trên train sau khi chia thời gian.
