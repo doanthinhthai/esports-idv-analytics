@@ -27,3 +27,12 @@ desktop.ini
 *.rar
 
 *.twb~*
+
+
+# Dữ liệu thô và cơ sở dữ liệu lớn (HTML crawl, SQLite)
+data/raw/
+*.sqlite3*
+*.html
+
+# File tạm của Microsoft Word (khi mở xem báo cáo)
+~$*
