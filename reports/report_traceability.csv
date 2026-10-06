@@ -1,0 +1,11 @@
+﻿claim_id,claim,value,unit,source_file,filter_or_scope
+release_tournaments,Tournament rows,14082.0,rows,data/processed/analysis_release_v1_20261005T194400349609Z/tournaments.csv,all rows
+release_placements,Placement rows,52551.0,rows,data/processed/analysis_release_v1_20261005T194400349609Z/placements.csv,all rows
+total_source_prize,Observed source prize pool,745131151.73,USD,data/processed/analysis_release_v1_20261005T194400349609Z/forecast_prize_quarterly.csv,all observed family-quarter rows
+rf_validation_rmse,Random Forest validation RMSE,1976567.77,USD,reports/model_metrics.csv,"source, validation, Overall, random_forest"
+rf_test_rmse,Random Forest test RMSE,2511322.61,USD,reports/model_metrics.csv,"source, test, Overall, random_forest"
+naive_test_rmse,Seasonal Naive test RMSE,2410869.3,USD,reports/model_metrics.csv,"source, test, Overall, seasonal_naive"
+dota_pearson,Dota 2 Twitch-hours vs prize Pearson,0.697593,correlation,data/processed/analysis_release_v1_20261005T194400349609Z/eda_correlations_descriptive.csv,"Dota 2, pearson"
+country_coverage,Overall country money coverage,97.667822,percent,data/processed/analysis_release_v1_20261005T194400349609Z/country_coverage.csv,weighted overall
+q4_error_share,Q4 share of Random Forest absolute error,36.59073,percent,reports/storytelling_error_analysis.csv,source random_forest validation+test
+dota_error_share,Dota 2 share of Random Forest absolute error,42.308319,percent,reports/storytelling_error_analysis.csv,source random_forest validation+test

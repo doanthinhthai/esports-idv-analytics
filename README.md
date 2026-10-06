@@ -78,3 +78,28 @@ Script đối chiếu actual trong dự báo với bảng quý nguồn, phân t�
 - Bốn hình `reports/figures/story_*.png` ở 300 DPI.
 
 Trong Tableau, đặt `target_policy` và `model` thành bộ lọc một lựa chọn. Không join bảng forecast vào placements hoặc country rows vì sẽ làm lặp actual và prediction.
+
+## Kiểm tra gói báo cáo và demo
+
+Sau khi chạy ba bước trên, kiểm tra toàn bộ đầu ra Thành viên C:
+
+```powershell
+python src\validate_deliverables.py
+```
+
+Kết quả kiểm tra được ghi vào:
+
+- `reports/final_validation_results.csv`.
+- `reports/final_validation_summary.md`.
+- `reports/report_traceability.csv`.
+
+Gói Ngày 4 gồm:
+
+- `reports/chapters/ch5_modeling.md`.
+- `reports/chapters/ch6_implementation.md`.
+- `reports/chapters/ch7_conclusion.md`.
+- `demo/video_script.md`.
+- `demo/defense_faq.md`.
+- `reports/final_integration_checklist.md`.
+
+Kiểm tra tự động không thay thế việc mở `.twbx` và kiểm tra tương tác Tableau. Các mục cần Thành viên B bàn giao được ghi riêng trong checklist tích hợp.
