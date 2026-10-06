@@ -5,7 +5,11 @@
 - Thời gian: ngày bắt đầu giải trong 2012–2025.
 - Nhóm game: Counter-Strike, Dota 2, League of Legends, Valorant.
 - Counter-Strike gồm CS:GO và CS2, giữ riêng phiên bản.
-- Nguồn: Esports Earnings và Esports Charts.
+- Nguồn sử dụng trong bộ dữ liệu phân tích:
+  - Esports Earnings: giải đấu, tiền thưởng, placements và quốc gia tuyển thủ.
+  - Dataset Twitch trên Kaggle: chỉ số người xem game theo tháng.
+- Esports Charts chỉ phục vụ kiểm thử thu thập ban đầu,
+  chưa được sử dụng làm nguồn chỉ số người xem trong bản release.
 - Dữ liệu thiếu giữ null, không tự thay bằng 0.
 
 ## 2. Quy ước trạng thái
@@ -190,17 +194,3 @@ Trạng thái:
 
 Đối chiếu tên, game/phiên bản, ngày, mùa và phạm vi.
 Ghép gần đúng chỉ tạo ứng viên, không tự xác nhận.
-
-## 10. Điều kiện sẵn sàng cho EDA
-
-- [ ] Có dữ liệu 4 nhóm game.
-- [ ] Trên 5.000 placements sạch sau lọc và loại trùng.
-- [ ] Không trùng khóa chính.
-- [ ] Khóa ngoại hợp lệ.
-- [ ] Có thống kê độ phủ theo game/năm/nguồn.
-- [ ] Có kiểm tra tiền thưởng và ngày.
-- [ ] Có dữ liệu hỗ trợ phân tích khu vực.
-- [ ] Có tập người xem với độ phủ được công khai.
-- [ ] Có source mapping được kiểm tra.
-- [ ] Có danh sách lỗi và hạn chế.
-- [ ] Có snapshot cố định để bàn giao nhóm.
