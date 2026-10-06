@@ -1,0 +1,13 @@
+﻿candidate_id,target,max_depth,min_samples_leaf,max_features,validation_rows,validation_mae_usd,validation_rmse_usd
+1,target_prize_pool_usd,4,1,sqrt,16,1419040.1265814924,1976567.7731892793
+5,target_prize_pool_usd,None,1,sqrt,16,1505045.932316253,2221409.7783560664
+3,target_prize_pool_usd,8,1,sqrt,16,1595887.6130176336,2334837.236115924
+2,target_prize_pool_usd,4,2,0.8,16,1833226.481781259,2617335.2900013523
+6,target_prize_pool_usd,None,2,0.8,16,1945499.4967564899,2779727.650089613
+4,target_prize_pool_usd,8,2,0.8,16,1959895.0624393527,2814183.892567198
+5,strict_target_prize_pool_usd,None,1,sqrt,16,937571.7185462466,1235911.589968835
+4,strict_target_prize_pool_usd,8,2,0.8,16,897970.081325488,1258142.158318475
+6,strict_target_prize_pool_usd,None,2,0.8,16,935087.4618523153,1328689.5101671014
+2,strict_target_prize_pool_usd,4,2,0.8,16,1038961.216856459,1377518.3159140623
+1,strict_target_prize_pool_usd,4,1,sqrt,16,1120471.6050262214,1410211.453329714
+3,strict_target_prize_pool_usd,8,1,sqrt,16,1112175.3437274136,1507147.3571595927

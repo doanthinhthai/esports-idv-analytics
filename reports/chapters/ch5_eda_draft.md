@@ -61,9 +61,27 @@ Tương quan Pearson giữa giờ xem Twitch và quỹ thưởng theo tháng là
 
 Mục tiêu chính là `target_prize_pool_usd` theo family–quý. Dữ liệu chia theo thời gian: 2012–2023 cho train, năm 2024 cho validation và năm 2025 cho test. Valorant chỉ bắt đầu từ 2020Q2; các quý trước khi game xuất hiện không được coi là 0.
 
-Seasonal naive `t-4` là baseline bắt buộc. Hai mô hình tiếp theo là Linear/Ridge Regression và Random Forest sử dụng target lag, thống kê rolling đã shift và mùa vụ quý. Không sử dụng số giải, placements hoặc Twitch của chính quý đang dự báo vì các biến này chưa có tại forecast origin hoặc trực tiếp chứa thông tin target.
+Seasonal naive `t-4` là baseline bắt buộc. Hai mô hình tiếp theo là Linear Regression và Random Forest sử dụng target lag, thống kê rolling đã shift và mùa vụ quý. Không sử dụng số giải, placements hoặc Twitch của chính quý đang dự báo vì các biến này chưa có tại forecast origin hoặc trực tiếp chứa thông tin target.
 
 League of Legends và Valorant chưa có đủ target test 2025. Vì vậy kết quả toàn bộ bốn family chưa được coi là đánh giá cuối cho đến khi nhóm xác minh nguồn hoặc thống nhất mốc test khác trước khi xem kết quả mô hình.
+
+### 5.4.1. Kết quả mô hình
+
+Mô hình được đánh giá theo giao thức rolling one-step. Khi dự báo một quý, các target đã quan sát của những quý trước có thể được dùng để tạo biến trễ. Tất cả dự báo âm của Linear Regression được cắt về 0 vì quỹ thưởng không thể âm. Mô hình chính được chọn theo RMSE validation của target nguồn trước khi xem kết quả test.
+
+| Mô hình | Validation MAE (USD) | Validation RMSE (USD) | Test MAE (USD) | Test RMSE (USD) |
+|---|---:|---:|---:|---:|
+| Seasonal naive `t-4` | 1.303.145 | 2.194.181 | 1.845.569 | 2.410.869 |
+| Linear Regression | 2.014.934 | 2.980.558 | 2.925.854 | 3.995.387 |
+| Random Forest | 1.419.040 | 1.976.568 | 1.818.034 | 2.511.323 |
+
+Random Forest có RMSE validation thấp nhất nên được chọn làm mô hình chính. Tuy nhiên, trên 13 family–quý test có target, Seasonal Naive có RMSE thấp hơn Random Forest khoảng 100 nghìn USD. Kết quả này cho thấy mô hình phức tạp chưa tạo ra cải thiện ổn định ngoài mẫu. Linear Regression kém nhất trên cả validation và test.
+
+### 5.4.2. Đóng góp biến và độ nhạy
+
+Với Random Forest target nguồn, `lag_4` có importance lớn nhất, khoảng 0,266. Các biến tiếp theo là trung bình trượt bốn quý, độ lệch chuẩn trượt, `lag_2`, trung vị trượt và `lag_1`. Importance dựa trên mức giảm impurity nên chỉ mô tả cách mô hình sử dụng biến, không chứng minh quan hệ nhân quả.
+
+Ba target test bị thiếu là League of Legends 2025Q4, Valorant 2025Q2 và Valorant 2025Q4. Mô hình vẫn xuất dự báo cho các quý này để trực quan hóa nhưng không tính chúng vào MAE, RMSE hoặc R². Kết quả với target strict-quality được xuất thành phân tích độ nhạy riêng, không dùng thay cho việc xác minh độ phủ nguồn.
 
 ## 5.5. Giới hạn
 
