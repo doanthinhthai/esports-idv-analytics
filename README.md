@@ -84,3 +84,63 @@ esports-idv-analytics/
 ├── demo/                    # Sản phẩm demo & artifacts
 ├── requirements.txt         # Thư viện phục vụ crawler & xử lý cốt lõi
 └── requirements-analysis.txt# Thư viện bổ sung cho EDA, viz & release pipeline (matplotlib, lxml)
+```
+
+## Chạy EDA cho analysis release
+
+Tạo môi trường Python, cài thư viện và chạy:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+python -m pip install -r requirements-analysis.txt
+python src\eda.py
+```
+
+`src/eda.py` tự chọn thư mục `data/processed/analysis_release_v1_*` mới nhất, kiểm tra khóa và đối chiếu tổng theo quý, sau đó tạo:
+
+- `reports/eda_summary.csv`.
+- Năm biểu đồ PNG 300 DPI trong `reports/figures/`.
+- Các biểu đồ giữ nguyên quý thiếu và ghi rõ giới hạn độ phủ nguồn năm 2025.
+
+Không dùng các bảng processed cũ nằm ngoài analysis release cho EDA này.
+
+## Chạy mô hình dự báo quỹ thưởng theo quý
+
+Sau khi cài hai tệp requirements ở trên, chạy:
+
+```powershell
+python src\model.py
+```
+
+`src/model.py` so sánh Seasonal Naive `t-4`, Linear Regression và Random Forest theo giao thức rolling one-step. Dữ liệu đến năm 2023 là train, năm 2024 là validation và năm 2025 là test. Mô hình chính được chọn bằng RMSE trên validation, không chọn bằng kết quả test.
+
+Kết quả gồm:
+
+- `reports/model_predictions.csv`: actual, prediction và residual cho từng family–quý.
+- `reports/model_metrics.csv`: MAE, RMSE và R² chẩn đoán theo model, split và family.
+- `reports/model_feature_importance.csv` và `reports/model_linear_coefficients.csv`.
+- `reports/model_quality_sensitivity.csv` và `reports/model_tuning_results.csv`.
+- `reports/model_evaluation_notes.md` và bốn biểu đồ PNG 300 DPI trong `reports/figures/`.
+
+Các target test bị thiếu vẫn được giữ là missing và không được tính vào điểm số.
+
+## Tạo storytelling và bảng bàn giao Tableau
+
+Sau khi chạy EDA và mô hình, chạy:
+
+```powershell
+python src\storytelling.py
+```
+
+Script đối chiếu actual trong dự báo với bảng quý nguồn, phân tích các kỳ sai số lớn và tạo:
+
+- `data/processed/tableau_forecast_predictions.csv`: bảng dài ở grain `game_family + quarter + target_policy + model`.
+- `data/processed/tableau_forecast_summary.csv`: KPI theo family, split, policy và model.
+- `reports/storytelling_insights.md`: ba câu chuyện dữ liệu, giới hạn và hành động đề xuất.
+- `reports/tableau_forecast_handoff.md`: hướng dẫn relationship, filter, measure và kiểm tra Tableau.
+- `reports/storytelling_error_analysis.csv` và `reports/storytelling_evidence.csv` để truy ngược số liệu.
+- Bốn hình `reports/figures/story_*.png` ở 300 DPI.
+
+Trong Tableau, đặt `target_policy` và `model` thành bộ lọc một lựa chọn. Không join bảng forecast vào placements hoặc country rows vì sẽ làm lặp actual và prediction.
