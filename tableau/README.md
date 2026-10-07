@@ -4,8 +4,8 @@ Open `Esports_Analytics_Dashboards.twbx` in Tableau Desktop or Tableau Public. T
 
 ## Dashboards
 
-- **Executive Summary** — strict-quality tournament count and prize pool, annual prize trend, Twitch monthly reach, country prize choropleth, and genre prize donut. Selecting a country or genre on the map filters the other views where the shared fields match.
-- **Regional & Game Deep-dive** — grouped prize bars, a Twitch views/hours scatter, game prize treemap, five-number tournament prize box plot, event-level prize distribution, radial prize bars, and Pearson correlation matrix. Click genre/game marks to filter and use the `Genre → Game → Tournament` hierarchy to drill to events.
+- **Executive Summary** — strict-quality tournament count and prize pool, annual worldwide strict tournament prize trend, Twitch monthly reach, country prize choropleth, and genre prize donut. Selecting a country or genre on the map filters the other views where the shared fields match.
+- **Regional & Game Deep-dive** — grouped prize bars, a Twitch views/hours scatter, game prize treemap, native Tableau box-and-whisker plot by game, event-level prize distribution, tournament-count bars by game, and Pearson correlation matrix. Click genre/game marks to filter and use the `Genre → Game → Tournament` hierarchy to drill to events.
 - **Predictive Simulator** — baseline quarterly prize predictions versus held-out targets, plus a scenario card. Select a game on the forecast chart and adjust the prize and audience multipliers.
 
 The grouped game bar includes a **Viz in Tooltip** with the selected game's annual prize history.
