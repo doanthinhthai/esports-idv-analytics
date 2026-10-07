@@ -1,0 +1,48 @@
+﻿Section,Game_Family,Metric,Value,Unit,Interpretation
+Release,All,Release folder,analysis_release_v1_20261005T194400349609Z,text,Newest policy-clean analysis release
+Release,All,Release stage,analysis_release_v1_policy_clean_not_source_verified,text,Source coverage is not fully verified
+Scope,All,Tournaments,14082,rows,One row per tournament
+Scope,All,Placements,52551,rows,One row per accepted team result
+Scope,All,Twitch observations,369,game-months,Main Twitch category; not tournament-level viewers
+Scope,All,Country prize observations,57597,rows,Only reconciled tournament-country tables
+Scope,All,Total source prize pool,745131151.73,USD,Nominal USD; not inflation-adjusted
+Scope,All,Earliest tournament,2012-01-04,date,Approved scope begins in 2012
+Scope,All,Latest tournament,2025-11-15,date,2025 source coverage remains unverified
+Quality,All,Strict prize pool retained,78.37260469303342,percent,Sensitivity filter changes the target materially
+Quality,All,Country prize coverage,97.66782274641808,percent,"Coverage of source prize pool, not total market"
+Family,Counter-Strike,Tournaments,7938,rows,Observed tournament metadata
+Family,Counter-Strike,Source prize pool,208572637.33,USD,Nominal source total
+Family,Counter-Strike,Median tournament prize,3412.31,USD,Robust typical tournament size
+Family,Counter-Strike,Strict prize pool retained,90.46810847554046,percent,Sensitivity to quality policy
+Family,Counter-Strike,Twitch months,105,months,2016-01-01 to 2024-09-01
+Family,Counter-Strike,Pearson hours-prize correlation,0.0417692255024048,coefficient,"Descriptive, n=105; not causal"
+Family,Counter-Strike,Minimum country coverage,91.45631431447894,percent,Lowest annual reconciled prize coverage
+Family,Counter-Strike,Observed tournaments in 2025,289,rows,May reflect incomplete source coverage
+Forecast,Counter-Strike,Missing 2025 target quarters,No missing quarters,quarters,Do not impute missing observations as zero
+Family,Dota 2,Tournaments,1977,rows,Observed tournament metadata
+Family,Dota 2,Source prize pool,380569929.51,USD,Nominal source total
+Family,Dota 2,Median tournament prize,10000.0,USD,Robust typical tournament size
+Family,Dota 2,Strict prize pool retained,68.98677735469936,percent,Sensitivity to quality policy
+Family,Dota 2,Twitch months,105,months,2016-01-01 to 2024-09-01
+Family,Dota 2,Pearson hours-prize correlation,0.6975934160138231,coefficient,"Descriptive, n=105; not causal"
+Family,Dota 2,Minimum country coverage,93.90889162645465,percent,Lowest annual reconciled prize coverage
+Family,Dota 2,Observed tournaments in 2025,19,rows,May reflect incomplete source coverage
+Forecast,Dota 2,Missing 2025 target quarters,No missing quarters,quarters,Do not impute missing observations as zero
+Family,League of Legends,Tournaments,2836,rows,Observed tournament metadata
+Family,League of Legends,Source prize pool,121377470.86,USD,Nominal source total
+Family,League of Legends,Median tournament prize,4230.764999999999,USD,Robust typical tournament size
+Family,League of Legends,Strict prize pool retained,83.06682308967662,percent,Sensitivity to quality policy
+Family,League of Legends,Twitch months,105,months,2016-01-01 to 2024-09-01
+Family,League of Legends,Pearson hours-prize correlation,0.0495505094252778,coefficient,"Descriptive, n=105; not causal"
+Family,League of Legends,Minimum country coverage,71.10469122856594,percent,Lowest annual reconciled prize coverage
+Family,League of Legends,Observed tournaments in 2025,10,rows,May reflect incomplete source coverage
+Forecast,League of Legends,Missing 2025 target quarters,2025Q4,quarters,Do not impute missing observations as zero
+Family,Valorant,Tournaments,1331,rows,Observed tournament metadata
+Family,Valorant,Source prize pool,34611114.03,USD,Nominal source total
+Family,Valorant,Median tournament prize,5000.0,USD,Robust typical tournament size
+Family,Valorant,Strict prize pool retained,92.22365172162012,percent,Sensitivity to quality policy
+Family,Valorant,Twitch months,54,months,2020-04-01 to 2024-09-01
+Family,Valorant,Pearson hours-prize correlation,0.0241592805541288,coefficient,"Descriptive, n=53; not causal"
+Family,Valorant,Minimum country coverage,96.47954629205567,percent,Lowest annual reconciled prize coverage
+Family,Valorant,Observed tournaments in 2025,5,rows,May reflect incomplete source coverage
+Forecast,Valorant,Missing 2025 target quarters,2025Q2 | 2025Q4,quarters,Do not impute missing observations as zero

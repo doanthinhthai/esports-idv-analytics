@@ -1,0 +1,61 @@
+﻿target_policy,split,game_family,model,model_label,n_evaluated,n_total_periods,coverage_pct,mae_usd,rmse_usd,r2_diagnostic,protocol
+source,validation,Counter-Strike,seasonal_naive,Seasonal naive (t-4),4,4,100.0,526852.4250000003,683136.7020632478,0.6559741487191332,rolling_one_step
+source,validation,Counter-Strike,linear_regression,Linear regression,4,4,100.0,563231.2493394162,629942.6971872561,0.7074649342262284,rolling_one_step
+source,validation,Counter-Strike,random_forest,Random forest,4,4,100.0,754480.7188506399,938977.2379580233,0.3500409882573934,rolling_one_step
+source,validation,Dota 2,seasonal_naive,Seasonal naive (t-4),4,4,100.0,2712214.8075,3797333.560281619,-2.044757399190609,rolling_one_step
+source,validation,Dota 2,linear_regression,Linear regression,4,4,100.0,5265636.1276333425,5435133.075905988,-5.237571881612114,rolling_one_step
+source,validation,Dota 2,random_forest,Random forest,4,4,100.0,2696387.9189402647,3242810.5160923926,-1.220436434452667,rolling_one_step
+source,validation,League of Legends,seasonal_naive,Seasonal naive (t-4),4,4,100.0,1531680.745,2024906.1934313052,-1.728030290170008,rolling_one_step
+source,validation,League of Legends,linear_regression,Linear regression,4,4,100.0,1273345.54408164,2109362.5338326804,-1.9603415884921978,rolling_one_step
+source,validation,League of Legends,random_forest,Random forest,4,4,100.0,1222203.663826724,1608633.9168353314,-0.7216854654024139,rolling_one_step
+source,validation,Valorant,seasonal_naive,Seasonal naive (t-4),4,4,100.0,441831.40750000003,520630.27462583233,0.5109896020511542,rolling_one_step
+source,validation,Valorant,linear_regression,Linear regression,4,4,100.0,957522.731523335,1071448.2271509534,-1.0711027126070727,rolling_one_step
+source,validation,Valorant,random_forest,Random forest,4,4,100.0,1003088.204708341,1281436.4100360293,-1.9624660061718373,rolling_one_step
+source,validation,Overall,seasonal_naive,Seasonal naive (t-4),16,16,100.0,1303144.84625,2194180.877730933,0.14085662089162476,rolling_one_step
+source,validation,Overall,linear_regression,Linear regression,16,16,100.0,2014933.9131444336,2980558.2932207845,-0.5853167054542732,rolling_one_step
+source,validation,Overall,random_forest,Random forest,16,16,100.0,1419040.1265814924,1976567.7731892788,0.30282112984502074,rolling_one_step
+source,test,Counter-Strike,seasonal_naive,Seasonal naive (t-4),4,4,100.0,2205409.9050000003,2751281.5333519084,-0.6985116761826826,rolling_one_step
+source,test,Counter-Strike,linear_regression,Linear regression,4,4,100.0,2754327.6107336264,3493580.3328388524,-1.738671475531881,rolling_one_step
+source,test,Counter-Strike,random_forest,Random forest,4,4,100.0,1934197.9820854128,2872341.3615875244,-0.8512734575577863,rolling_one_step
+source,test,Dota 2,seasonal_naive,Seasonal naive (t-4),4,4,100.0,2587195.51,3124234.8455692865,-1.7381304196846257,rolling_one_step
+source,test,Dota 2,linear_regression,Linear regression,4,4,100.0,5548575.658073457,6117416.04971649,-9.497909455684088,rolling_one_step
+source,test,Dota 2,random_forest,Random forest,4,4,100.0,2204933.980468162,3014293.304167609,-1.5488120047733172,rolling_one_step
+source,test,League of Legends,seasonal_naive,Seasonal naive (t-4),3,4,75.0,944882.2266666666,1186418.2349778647,,rolling_one_step
+source,test,League of Legends,linear_regression,Linear regression,3,4,75.0,992965.8873284027,1427508.0735559547,,rolling_one_step
+source,test,League of Legends,random_forest,Random forest,3,4,75.0,1415327.9993096974,1664335.9647325645,,rolling_one_step
+source,test,Valorant,seasonal_naive,Seasonal naive (t-4),2,4,50.0,993661.7949999999,1003853.0676400046,,rolling_one_step
+source,test,Valorant,linear_regression,Linear regression,2,4,50.0,922796.6538316917,1203266.8300419175,,rolling_one_step
+source,test,Valorant,random_forest,Random forest,2,4,50.0,1415965.2814914258,1471794.42543928,,rolling_one_step
+source,test,Overall,seasonal_naive,Seasonal naive (t-4),13,16,81.25,1845568.6099999999,2410869.304306496,-0.324058548977171,rolling_one_step
+source,test,Overall,linear_regression,Linear regression,13,16,81.25,2925854.157298225,3995387.443406265,-2.636450293411759,rolling_one_step
+source,test,Overall,random_forest,Random forest,13,16,81.25,1818034.0316250955,2511322.611327771,-0.4366959539508761,rolling_one_step
+strict_quality,validation,Counter-Strike,seasonal_naive,Seasonal naive (t-4),4,4,100.0,278605.01500000025,312846.73450822826,0.8270634612629923,rolling_one_step
+strict_quality,validation,Counter-Strike,linear_regression,Linear regression,4,4,100.0,1927887.4454580527,2033766.8177144865,-6.30845916292569,rolling_one_step
+strict_quality,validation,Counter-Strike,random_forest,Random forest,4,4,100.0,669698.3728849911,885450.5184156726,-0.38532637648455226,rolling_one_step
+strict_quality,validation,Dota 2,seasonal_naive,Seasonal naive (t-4),4,4,100.0,1616816.7225000004,1754323.266909881,-4.555092174298658,rolling_one_step
+strict_quality,validation,Dota 2,linear_regression,Linear regression,4,4,100.0,4652733.972208645,4873708.821515561,-41.873721301420105,rolling_one_step
+strict_quality,validation,Dota 2,random_forest,Random forest,4,4,100.0,1203853.3077049986,1349140.9639956143,-2.285388108333534,rolling_one_step
+strict_quality,validation,League of Legends,seasonal_naive,Seasonal naive (t-4),4,4,100.0,1261833.5675,1649396.356520081,-2.7461286337340467,rolling_one_step
+strict_quality,validation,League of Legends,linear_regression,Linear regression,4,4,100.0,1961730.3795273174,2162796.1761411545,-5.441155893173373,rolling_one_step
+strict_quality,validation,League of Legends,random_forest,Random forest,4,4,100.0,558113.3700500014,767187.0085755348,0.18953343317528804,rolling_one_step
+strict_quality,validation,Valorant,seasonal_naive,Seasonal naive (t-4),4,4,100.0,471027.985,548663.4440526866,0.5162185961787701,rolling_one_step
+strict_quality,validation,Valorant,linear_regression,Linear regression,4,4,100.0,1362487.9986734132,1635581.3483655015,-3.299138322278396,rolling_one_step
+strict_quality,validation,Valorant,random_forest,Random forest,4,4,100.0,1318621.823544996,1707960.7622707551,-3.6880571600130523,rolling_one_step
+strict_quality,validation,Overall,seasonal_naive,Seasonal naive (t-4),16,16,100.0,907070.8225000001,1244695.0550089863,0.4883638262366753,rolling_one_step
+strict_quality,validation,Overall,linear_regression,Linear regression,16,16,100.0,2476209.948966857,2968251.1177630764,-1.909622149614365,rolling_one_step
+strict_quality,validation,Overall,random_forest,Random forest,16,16,100.0,937571.7185462469,1235911.589968835,0.49555929502857976,rolling_one_step
+strict_quality,test,Counter-Strike,seasonal_naive,Seasonal naive (t-4),4,4,100.0,1532113.0825,2439280.6609192374,-0.888446443283956,rolling_one_step
+strict_quality,test,Counter-Strike,linear_regression,Linear regression,4,4,100.0,2029510.1115420335,2729463.5733783306,-1.3644804788467106,rolling_one_step
+strict_quality,test,Counter-Strike,random_forest,Random forest,4,4,100.0,1697189.166149993,2589279.993774658,-1.127840931937508,rolling_one_step
+strict_quality,test,Dota 2,seasonal_naive,Seasonal naive (t-4),4,4,100.0,2289866.26,2725542.5678065377,-1.0058728687779035,rolling_one_step
+strict_quality,test,Dota 2,linear_regression,Linear regression,4,4,100.0,3360059.6117493394,4649845.974360056,-4.8381412733309945,rolling_one_step
+strict_quality,test,Dota 2,random_forest,Random forest,4,4,100.0,1982777.312849998,2533277.8909997223,-0.7328586212559729,rolling_one_step
+strict_quality,test,League of Legends,seasonal_naive,Seasonal naive (t-4),3,4,75.0,420346.37333333335,540520.2300644652,,rolling_one_step
+strict_quality,test,League of Legends,linear_regression,Linear regression,3,4,75.0,783988.2543220067,886254.5514136109,,rolling_one_step
+strict_quality,test,League of Legends,random_forest,Random forest,3,4,75.0,361611.0878799983,486268.50276126614,,rolling_one_step
+strict_quality,test,Valorant,seasonal_naive,Seasonal naive (t-4),2,4,50.0,886653.115,921139.2655591429,,rolling_one_step
+strict_quality,test,Valorant,linear_regression,Linear regression,2,4,50.0,965651.1212509803,1072810.928479608,,rolling_one_step
+strict_quality,test,Valorant,random_forest,Random forest,2,4,50.0,1131891.6799799982,1140887.440415134,,rolling_one_step
+strict_quality,test,Overall,seasonal_naive,Seasonal naive (t-4),13,16,81.25,1409404.8246153845,2077131.364629829,-0.23147771174502885,rolling_one_step
+strict_quality,test,Overall,linear_regression,Linear regression,13,16,81.25,1987811.2229718056,3050124.1324162157,-1.6554226638977614,rolling_one_step
+strict_quality,test,Overall,random_forest,Random forest,13,16,81.25,1389883.2722769196,2071790.2052700112,-0.22515258270897442,rolling_one_step
