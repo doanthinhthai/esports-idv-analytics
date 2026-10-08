@@ -144,3 +144,33 @@ Script đối chiếu actual trong dự báo với bảng quý nguồn, phân t�
 - Bốn hình `reports/figures/story_*.png` ở 300 DPI.
 
 Trong Tableau, đặt `target_policy` và `model` thành bộ lọc một lựa chọn. Không join bảng forecast vào placements hoặc country rows vì sẽ làm lặp actual và prediction.
+
+## Dự báo bốn quý sau dữ liệu mới nhất
+
+```powershell
+.\.venv\Scripts\python.exe src\forecast_future.py
+```
+
+Luồng mới tự xác định quý cuối đã kết thúc trong release, kiểm tra dự báo nối tiếp
+1–4 quý trên nhiều mốc, giữ bốn quý cuối làm holdout, chọn model rồi huấn luyện lại
+trên toàn bộ lịch sử hợp lệ. Không cần chạy lại EDA hay sửa năm cố định khi A cập nhật release.
+Muốn loại quý cuối chưa thu thập đầy đủ, thêm `--as-of YYYYQn`.
+
+- `data/processed/tableau_future_forecasts.csv`: 48 dự báo, ba model × bốn game × bốn quý.
+- `data/processed/tableau_forecast_timeline.csv`: lịch sử và dự báo dùng vẽ đường trong Tableau.
+- `data/processed/tableau_backtest_metrics.csv`: sai số theo model, game, khoảng dự báo và giai đoạn kiểm tra.
+- `reports/future_backtest_predictions.csv`: chi tiết từng lần kiểm tra để truy vết.
+- `reports/future_forecast_run.json`, `reports/future_forecast_notes.md`: cấu hình và kết quả lần chạy.
+- [Hướng dẫn bàn giao Tableau](docs/TABLEAU_DU_BAO_TUONG_LAI.md).
+
+Luồng `model.py` cũ vẫn dành cho kiểm định one-step; luồng mới nằm ở `forecast_future.py`
+và ba mô-đun `du_bao_tuong_lai.py`, `du_bao_danh_gia.py`, `du_bao_xuat.py`.
+Không so trực tiếp sai số hai giao thức để tuyên bố mô hình đã chính xác hơn.
+Dải 80% mới chỉ mang tính tham khảo từ sai số lịch sử, không bảo đảm xác suất 80%.
+Quý lịch sử thiếu giữ null; dữ liệu nguồn hiện chưa được xác minh đầy đủ.
+
+Kiểm thử luồng mới:
+
+```powershell
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+```

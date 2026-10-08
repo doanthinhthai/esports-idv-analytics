@@ -1,0 +1,35 @@
+{
+  "source_release": "analysis_release_v1_20261005T194400349609Z",
+  "input_sha256": "e8b655cf3d9ec382c9004ac4ccfcd2645ba4d77679084b47064e494f121f7b0b",
+  "generated_at_utc": "2026-10-08T15:00:13.610744+00:00",
+  "forecast_origin": "2025Q4",
+  "forecast_quarters": [
+    "2026Q1",
+    "2026Q2",
+    "2026Q3",
+    "2026Q4"
+  ],
+  "primary_model": "random_forest",
+  "target_policy": "source",
+  "horizon_quarters": 4,
+  "selection_rule": "minimum pooled selection RMSE, then MAE, then model name",
+  "selection_origins": [
+    "2022Q1",
+    "2022Q2",
+    "2022Q3",
+    "2022Q4",
+    "2023Q1",
+    "2023Q2",
+    "2023Q3",
+    "2023Q4"
+  ],
+  "holdout_origin": "2024Q4",
+  "forest_params": {
+    "max_depth": 4,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt"
+  },
+  "source_coverage_verified": false,
+  "interval_method": "exploratory absolute residual quantile by game/model/horizon; minimum 8 samples; not guaranteed 80%",
+  "missing_policy": "keep actual null; train-only feature imputation; seasonal median fallback flagged"
+}
