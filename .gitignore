@@ -36,3 +36,5 @@ data/raw/
 
 # File tạm của Microsoft Word (khi mở xem báo cáo)
 ~$*
+
+.idea
